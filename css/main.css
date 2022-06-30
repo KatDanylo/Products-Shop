@@ -19,18 +19,17 @@
 }
 .product-item{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 .item{
     border: 1px solid slateblue;
-    width: 80%;
+    max-width: 80%;
     margin: 20px auto;
     text-align: center;
 }
 .item>img{
-    width: 100%;
+    width: 80%;
     height: auto;
 }
 .btn_byu{
