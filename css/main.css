@@ -8,25 +8,52 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    height: 100%;
     width: 100%;
 }
 .list_shops, .list_products {
     border: 2px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
+}
+.product-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.item{
+    border: 1px solid slateblue;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+}
+.item>img{
     width: 100%;
+    height: auto;
+}
+.btn_byu{
+    max-width: 100px;
+    background-color: lightgreen;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+.btn:hover{
+    background-color: #fcf4f1;
+    border: 2px solid salmon
 }
 @media (min-width:676px) {
     .assortment{
         flex-direction: row;
     }
     .list_shops{
-        width: 30%;
+        width: 25%;
     }
     .list_products{
-        width: 70%;
+        width: 75%;
+    }
+    .btn{
+        max-width: 150px;
     }
 }
