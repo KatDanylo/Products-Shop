@@ -1,0 +1,23 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+    font-family: Tahoma,  Verdana, sans-serif;
+    background-color: blueviolet;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.btn{
+    width: 180px;
+    border-radius: 50px 5px;
+    border: none;
+    margin: 10px;
+    padding: 5px;
+}
+

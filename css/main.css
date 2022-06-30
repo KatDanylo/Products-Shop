@@ -1,0 +1,32 @@
+.page{
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+.assortment{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    width: 100%;
+}
+.list_shops, .list_products {
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+@media (min-width:676px) {
+    .assortment{
+        flex-direction: row;
+    }
+    .list_shops{
+        width: 30%;
+    }
+    .list_products{
+        width: 70%;
+    }
+}

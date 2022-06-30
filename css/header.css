@@ -1,0 +1,14 @@
+
+.header_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header_container{
+    display: block;
+}
+.list_name{
+    margin: 15px;
+    padding: 5px;
+}
