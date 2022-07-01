@@ -1,0 +1,90 @@
+[{
+  "id": "1",
+  "name": "broccoli",
+  "description": "Broccoli has large flower heads, usually dark green, arranged in a tree-like structure branching out from a thick stalk which is usually light green.",
+  "price": "2.99",
+  "category": "vegetables",
+  "store":"Good-Food",
+  "url":"img/broccoli.png"
+},
+{
+  "id": "2",
+  "name": "pepper",
+  "description": "The pepper is a vegetable with variable shape, size and colour. It can be green, red, yellow, orange and even black!. Its taste can be sweet or spicy and it is consumed fresh, preserve, etc.",
+  "price": "1.99",
+  "category": "vegetables",
+  "store":"Good-Food",
+  "url":"img/pepper.png"
+},
+{
+  "id": "3",
+  "name": "cherry",
+  "description": "The fruit is a fleshy drupe (stone fruit) that is generally heart-shaped to nearly globular, about 2 cm (1 inch) in diameter, and varies in colour from yellow through red to nearly black.",
+  "price": "0.99",
+  "category": "fruits",
+  "store":"Good-Food",
+  "url":"img/cherry.png"
+},
+{
+  "id": "4",
+  "name": "watermelon",
+  "description": "A large oblong or roundish fruit with a hard green or white rind often striped or variegated, a sweet watery pink, yellowish, or red pulp, and usually many seeds.",
+  "price": "4.99",
+  "category": "fruits",
+  "store":"Good-Food",
+  "url":"img/watermelon.png"
+},
+{
+  "id": "5",
+  "name": "almond",
+  "description": "The almond is the edible kernel of the fruit of the sweet almond tree. It is a bright white fruti and wrapped in a reddish brown cover",
+  "price": "8.99",
+  "category": "nuts",
+  "store":"Good-Food",
+  "url":"img/almond.png"
+},
+{
+  "id": "6",
+  "name": "cheeseburger",
+  "description": "A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty.",
+  "price": "2.00",
+  "category": "fast-food",
+  "store":"KFS",
+  "url":"img/cheeseburger.jpg"
+},
+{
+  "id": "7",
+  "name": "fri",
+  "description": "Fried potetous",
+  "price": "1.00",
+  "category": "fast-food",
+  "store":"KFS",
+  "url":"img/fri.jpg"
+},
+{
+  "id": "8",
+  "name": "roll",
+  "description": "roll",
+  "price": "3.00",
+  "category": "fast-food",
+  "store":"KFS",
+  "url":"img/roll.jpg"
+},
+{
+  "id": "9",
+  "name": "icecream",
+  "description": "icecream",
+  "price": "1.50",
+  "category": "desert",
+  "store":"KFS",
+  "url":"img/icecream.jpg"
+},
+{
+  "id": "10",
+  "name": "maffin",
+  "description": "maffin",
+  "price": "2.50",
+  "category": "desert",
+  "store":"KFS",
+  "url":"img/maffin.jpg"
+}]
