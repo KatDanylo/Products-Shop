@@ -55,7 +55,7 @@
 {
   "id": "7",
   "name": "fri",
-  "description": "Fried potetous",
+  "description": "Fried potatoes are a dish or a component of other dishes essentially consisting of potatoes which have been fried or deep-fried in hot cooking oil often with the addition of salt and other seasoning",
   "price": "1.00",
   "category": "fast-food",
   "store":"KFS",
@@ -64,7 +64,7 @@
 {
   "id": "8",
   "name": "roll",
-  "description": "roll",
+  "description": "It's tasty lavash with different ingredients such as vegetables, meats, cheese, etc",
   "price": "3.00",
   "category": "fast-food",
   "store":"KFS",
@@ -73,7 +73,7 @@
 {
   "id": "9",
   "name": "icecream",
-  "description": "icecream",
+  "description": "Ice cream is a very cold sweet food which is made from frozen cream or a substance like cream and has a flavour such as vanilla, chocolate, or strawberry.",
   "price": "1.50",
   "category": "desert",
   "store":"KFS",
@@ -81,7 +81,7 @@
 },
 {
   "id": "10",
-  "name": "maffin",
+  "name": "Maffin is a small sweet cake that often has fruit or chocolate inside it",
   "description": "maffin",
   "price": "2.50",
   "category": "desert",
