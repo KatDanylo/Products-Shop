@@ -12,14 +12,14 @@
     <header>
         <div class="header_container">
             <div class="header_list">
-                <div class="list_name"><a href="#top">Shop</a></div>
+                <div class="list_name"><a href="#top">Store</a></div>
                 <div class="list_name"> <a href="#">Shopping Cart</a> </div>
             </div>
         </div>
     </header>
     <main class="container">
         <div class="assortment">
-        <section class="list_shops">
+        <section class="list_store">
         </section>
         <section class="list_products">
             <div class="product-item">
@@ -41,21 +41,23 @@
             <div class="contact_data">
                 <form action="#" method="post" id="cart_form">
                     <label for="name">Name:</label>
-                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="text" name="name" placeholder="Enter your name" required>
                     <label for="email">Email:</label>
-                    <input type="email" name="email" placeholder="Enter your e-mail">
+                    <input type="email" name="email" placeholder="Enter your e-mail" required>
                     <label for="phone">Phone:</label>
-                    <input type="tel" name="phone" placeholder="Enter your phone">
+                    <input type="tel" name="phone" placeholder="Enter your phone" required>
                     <label for="name">Address:</label>
                     <input type="text" name="address" placeholder="Enter your address">
                 </form>
             </div>
-            <div class="order_data">
-            </div>
+            <div class="order_content">
+                <div class="order_data"></div>
+                <div class="total_price">Total price: <span> </span></div>
+            </div>      
         </div>
         <div class="cart_btn">
             <button id="order_cart" class="btn">Order</button>
-            <button id="close_cart" class="btn">Close</button>
+            <button id="close_cart" class="btn">Сontinue shopping</button>
         </div>
     </div>
 </div>

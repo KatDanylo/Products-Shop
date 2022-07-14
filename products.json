@@ -81,8 +81,8 @@
 },
 {
   "id": "10",
-  "name": "Maffin is a small sweet cake that often has fruit or chocolate inside it",
-  "description": "maffin",
+  "name": "maffin",
+  "description": "Maffin  is a small sweet cake that often has fruit or chocolate inside it",
   "price": "2.50",
   "category": "desert",
   "store":"KFS",

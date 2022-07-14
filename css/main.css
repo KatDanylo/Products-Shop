@@ -10,7 +10,7 @@
     gap: 10px;
     width: 100%;
 }
-.list_shops, .list_products {
+.list_store, .list_products {
     border: 2px solid black;
     display: flex;
     justify-content: flex-start;
@@ -24,7 +24,6 @@
     align-items: center;
 }
 .item{
-    border: 1px solid slateblue;
     width: 40%;
     margin: 20px;
     text-align: center;
@@ -47,7 +46,7 @@
     .assortment{
         flex-direction: row;
     }
-    .list_shops{
+    .list_store{
         width: 25%;
     }
     .list_products{
