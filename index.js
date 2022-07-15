@@ -33,16 +33,19 @@
     const btn_close = document.querySelector('#close_cart');
     const btn_order = document.querySelector('#order_cart');
     const modal_window = document.querySelector('.modal');
+    const cart_link = document.querySelector('#cart_link');
+    const store_link = document.querySelector('#store_link');
+    const order_count = document.querySelector('.order_count');
+ 
     productsContainer.addEventListener('click', function(event){
         if (event.target.closest('.btn_byu')){
-            // const orderCount = document.querySelector('.order_count');
             const orderData = document.querySelector('.order_data');
             for (const cartData of products){
             orderData.innerHTML += `
             <div class="order_item">
-                <img src="${cartData.url}" alt="${cartData.name}">
-                <p class="category"> ${cartData.category}: ${cartData.name}</p>
-                <p class="price"> ${cartData.price}$</p>
+                <img src="${cartData.url}" alt="${cartData.name}  ">
+                <p class="category"> ${cartData.category}:  ${cartData.name}</p>
+                <p class="price"> |  ${cartData.price}$</p>
                 <input  class="order_count" type="number" min="1" step="1" value="1">
             </div> `;
              }
@@ -59,10 +62,15 @@
         console.log("УРА");
     }
 
+
     btn_close.addEventListener("click", () => {
         modal_window.classList.toggle("visible")
     });
     btn_order.addEventListener("click", () => {
         modal_window.classList.remove("visible");
     });
+    cart_link.addEventListener("click", () => {
+        modal_window.classList.toggle("visible")
+    });
+    store_link.addEventListener("click",() => {renderProducts(products)});
 })();
