@@ -58,9 +58,6 @@
              renderProducts(filterProducts);
         }
     });
-    function cons(){
-        console.log("УРА");
-    }
 
 
     btn_close.addEventListener("click", () => {
