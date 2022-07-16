@@ -40,7 +40,7 @@
     gap: 10px;
     min-width: 300px;
     overflow-y: scroll;
-    max-height: 700px;
+    max-height: 70vh;
 }
 .order_item{
     display: flex;
