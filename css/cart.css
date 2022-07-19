@@ -82,6 +82,14 @@ img{
 input[type="number"]{
     text-align: center; 
 }
+.btn_delete{
+    border-radius: 50%;
+    background-color: lightgreen;
+    max-height: 5vh;
+    width: auto;
+    border: 2px solid black;
+    margin: 5px;
+}
 @media (max-width:676px) {
     .cart_content{
         flex-direction: column;
